@@ -1,14 +1,15 @@
-h1{
+#fontHeading{
 
     text-align: center;
     font-family: 'Rubik Wet Paint', cursive;
     font-weight: normal;
     font-variant: small-caps;
+    padding: 10px;
     
-
+        
 }
 
-p {
+#loremContent {
 
     font-family: 'Fjalla One', sans-serif;
     font-style: italic;
@@ -21,7 +22,9 @@ p {
     position: relative;
     left:33.3%;
     padding:20px;
-    border:2px solid;
+    border:2px solid white;
+
+    
 
 }
 

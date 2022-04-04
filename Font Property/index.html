@@ -4,6 +4,8 @@
 
     <link rel="stylesheet" href="FontProperty.css" />
     <link rel="stylesheet" href="BackgroundProperty.css" />
+    <link rel="stylesheet" href="TextProperties.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik+Wet+Paint&display=swap"
@@ -15,22 +17,27 @@
 </head>
 
 <body>
-    <div>
 
-        <div class="animae">
 
-            <h1 id="pageHeading">Sathiyaseelan Ravi</h1>
+    <div class="header">
 
-            <marquee behaviour="scroll" direction="left">
+        <h1 id="pageHeading">Cascading Style Sheet</h1>
 
-                <img src="img/walkingleft.gif" height="20%" alt="animae" />
+    </div>
 
-            </marquee>
+    <div class="navbar">
 
-        </div>
+        <ul>
+            <li><a href="#font">Font</a></li>
+            <li><a href="#background">BackGround</a></li>
+            <li><a href="#background">Text</a></li>
+        </ul>
 
-        <h1 id="fontHeading">Css Font Property</h1>
+    </div>
 
+    <div id="font">
+
+        <h1 id="fontHeading">Font Property</h1>
 
         <p id="loremContent">Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit</span>. Commodi placeat
             optio adipisci vero, ab
@@ -38,13 +45,49 @@
             quisquam tenetur? Esse et quod voluptatem. Vel reprehenderit excepturi, obcaecati quidem dolor quo illum
             omnis?
         </p>
+
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div id="background">
+
+        <h1 style="color: white; text-align: center; padding: 10px;">BackgroundProperty</h1>
+
+        <div class="backgroundRepeat">
+
+
+
+        </div>
+
     </div>
 
     <br>
     <br>
     <br>
 
-    <div class="backgroundRepeat"></div>
+
+    <div class="letterSpacing" id="text">
+
+        <h1 style="color:white; text-align: center;">Text Properties</h1>
+
+        <p id="letterSpacingContent">
+
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, esse, eveniet qui perspiciatis obcaecati
+            nobis, veniam consequuntur repellat est fugit illum at praesentium ipsa autem nulla nostrum ipsam error
+            dolorem iusto! Expedita sit, facilis non quam dolore, nam illo provident veniam quod natus accusamus
+            corrupti modi dignissimos nesciunt eos? Nostrum, rem. Assumenda, in autem! Optio labore voluptate,
+            repellendus necessitatibus rerum numquam consectetur excepturi a hic fuga officia maiores? Provident ea
+            accusantium, officia earum molestiae, dignissimos nostrum alias adipisci quod dicta doloremque assumenda
+            eaque culpa deserunt fugit voluptatibus perferendis ab est! Veritatis eius quia asperiores sint illo? At
+            voluptatum autema.
+
+        </p>
+
+    </div>
 
 </body>
 

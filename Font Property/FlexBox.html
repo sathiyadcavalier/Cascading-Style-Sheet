@@ -1,0 +1,237 @@
+<html>
+
+<head>
+
+  <style>
+    html {
+
+      background: skyblue;
+
+    }
+
+    body {
+
+      text-align: center;
+
+    }
+
+    .containerDir {
+
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row-reverse;
+      background: grey;
+      width: 800px;
+      height: 150px;
+      margin: 0 auto;
+
+    }
+
+    .BoxDir {
+
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin: 20px 20px 0px 0px;
+      padding: 5px;
+
+    }
+
+    .containerWrap {
+
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap-reverse;
+      background: grey;
+      width: 390px;
+      margin: 0 auto;
+      padding: 20px;
+
+    }
+
+
+
+    .BoxWrap {
+
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin: 20px 20px 0px 0px;
+      padding: 5px;
+
+    }
+
+    .BoxDir:nth-of-type(odd) {
+
+      background: tomato;
+
+    }
+
+    .BoxWrap:nth-of-type(odd) {
+
+      background: yellow;
+
+    }
+
+    .containerJustifyMainAxis {
+
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background: grey;
+      width: 800px;
+      height: 500px;
+      margin: 0 auto;
+      padding: 20px;
+
+    }
+
+    .BoxJustify {
+
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin: 20px 20px 0px 0px;
+      padding: 5px;
+
+    }
+
+    .containerJustifyCrossAxis {
+
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      background: grey;
+      width: 800px;
+      height: 500px;
+      margin: 0 auto;
+      padding: 20px;
+
+    }
+
+    .FlexOrder {
+
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background: grey;
+      width: 800px;
+      height: 500px;
+      margin: 0 auto;
+      padding: 20px;
+
+    }
+
+    .Box1 {
+
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin: 20px 20px 0px 0px;
+      padding: 5px;
+      order: 3;
+
+    }
+
+    .Box2 {
+
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin: 20px 20px 0px 0px;
+      padding: 5px;
+      order: 1;
+
+    }
+
+    .Box3 {
+
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin: 20px 20px 0px 0px;
+      padding: 5px;
+      order: 2;
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Flex Box and Direction</h1>
+
+  <div class="containerDir">
+
+    <div class="BoxDir">Box 1</div>
+    <div class="BoxDir">Box 2</div>
+    <div class="BoxDir">Box 3</div>
+    <div class="BoxDir">Box 4</div>
+    <div class="BoxDir">Box 5</div>
+    <div class="BoxDir">Box 6</div>
+
+  </div>
+
+  <hr>
+
+  <h1>Flex Box and Wrap</h1>
+
+  <div class="containerWrap">
+
+    <div class="BoxWrap">Box 1</div>
+    <div class="BoxWrap">Box 2</div>
+    <div class="BoxWrap">Box 3</div>
+    <div class="BoxWrap">Box 4</div>
+    <div class="BoxWrap">Box 5</div>
+    <div class="BoxWrap">Box 6</div>
+
+  </div>
+  <hr>
+  <h1>Flex Box and Justify Content Main Axis</h1>
+
+
+  <div class="containerJustifyMainAxis">
+
+    <div class="BoxJustify">Box 1</div>
+    <div class="BoxJustify">Box 2</div>
+    <div class="BoxJustify">Box 3</div>
+
+  </div>
+  <hr>
+  <h1>Flex Box and Justify Content Cross Axis</h1>
+
+
+  <div class="containerJustifyCrossAxis">
+
+    <div class="BoxJustify">Box 1</div>
+    <div class="BoxJustify">Box 2</div>
+    <div class="BoxJustify">Box 3</div>
+
+  </div>
+
+  <h1>Flex Order</h1>
+
+  <div class="FlexOrder">
+
+    <div class="Box1">Box 1</div>
+    <div class="Box2">Box 2</div>
+    <div class="Box3">Box 3</div>
+
+  </div>
+  <hr>
+</body>
+
+
+</html>
